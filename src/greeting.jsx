@@ -1,6 +1,6 @@
-export function Greeting() {
+export function Greeting({nickName="no Nick name", name}) {
   const user = {
-    name: "Jorge",
+    name: name,
     lastName: "Quispe",
     age: 21,
     married: false,
@@ -12,7 +12,7 @@ export function Greeting() {
     <section>
       <h1>Hello World</h1>
       <p>
-        Hello {user.name} {user.lastName}
+        Hello {user.name} {user.lastName} or {nickName}
       </p>
       <h3>You are: {user.married ? "married 😅" : "single 😂"}</h3>
       <h2>
