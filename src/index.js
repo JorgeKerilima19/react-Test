@@ -7,7 +7,12 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <>
-    <Greeting nickName="George" name="Jorge" />
-    <Greeting />
+    {/* <Greeting nickName="George" name="Jorge" />
+    <Greeting /> */}
+    <User
+      name="Pol"
+      cashAmount={5000}
+      address={{ city: "New York", street: "Some 2014" }}
+      cardsPoints={[10, 20 , 45.2, 4]} />
   </>
 );
