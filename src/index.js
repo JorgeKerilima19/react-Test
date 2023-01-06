@@ -14,9 +14,11 @@ root.render(
       name="Pol"
       cashAmount={5000}
       address={{ city: "New York", street: "Some 2014" }}
-      cardsPoints={[10, 20 , 45.2, 4]} />
-      <Button text="Click Me"/>
-      <Button text="Send"/>
-      <Button text="I do nothing"/>
+      cardsPoints={[10, 20, 45.2, 4]}
+    />
+    <Button text="Click Me" />
+    <Button text="Send" />
+    <Button text="I do nothing" />
+    <Button text="" name="Frank" />
   </>
 );
