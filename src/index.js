@@ -22,7 +22,7 @@ root.render(
     <Button text="I do nothing" />
     <Button text="" name="Frank" />
     <StyleLine/>
-    <ImportCss/>
+    <ImportCss task={true}/>
 
   </>
 );
