@@ -4,6 +4,7 @@ import { Greeting } from "./greeting";
 import { User } from "./userCards";
 import { Button } from "./Button";
 import { StyleLine } from "./LineStyle";
+import { ImportCss } from "./ImportStyle";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -21,5 +22,7 @@ root.render(
     <Button text="I do nothing" />
     <Button text="" name="Frank" />
     <StyleLine/>
+    <ImportCss/>
+
   </>
 );
