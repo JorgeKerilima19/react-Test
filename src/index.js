@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import { Greeting } from "./greeting";
 import { User } from "./userCards";
 import { Button } from "./Button";
+import { StyleLine } from "./LineStyle";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -17,8 +18,8 @@ root.render(
       cardsPoints={[10, 20, 45.2, 4]}
     />
     <Button text="Click Me" />
-    <Button text="Send" />
     <Button text="I do nothing" />
     <Button text="" name="Frank" />
+    <StyleLine/>
   </>
 );
