@@ -18,11 +18,11 @@ root.render(
       address={{ city: "New York", street: "Some 2014" }}
       cardsPoints={[10, 20, 45.2, 4]}
     />
-    <Button text="Click Me" />
     <Button text="I do nothing" />
     <Button text="" name="Frank" />
     <StyleLine/>
     <ImportCss task={true}/>
+    <Button text="Click Me"/>
 
   </>
 );
