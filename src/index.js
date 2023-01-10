@@ -5,7 +5,7 @@ import { User } from "./userCards";
 import { Button } from "./Button";
 import { StyleLine } from "./LineStyle";
 import { ImportCss } from "./ImportStyle";
-
+import { FetchButton } from "./FetchButton";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
@@ -23,6 +23,7 @@ root.render(
     <StyleLine/>
     <ImportCss task={true}/>
     <Button text="Click Me"/>
+    <FetchButton/>
 
   </>
 );
