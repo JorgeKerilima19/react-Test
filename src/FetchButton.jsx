@@ -1,3 +1,5 @@
+import { MdSaveAlt } from "react-icons/md"
+
 export function FetchButton() {
   return (
     <button
@@ -7,6 +9,7 @@ export function FetchButton() {
           .then((data) => console.log(data)).catch(error=>console.log(error));
       }}
     >
+        <MdSaveAlt/>
       Display data
     </button>
   );
