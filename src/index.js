@@ -7,6 +7,10 @@ import { StyleLine } from "./LineStyle";
 import { ImportCss } from "./ImportStyle";
 import { FetchButton } from "./FetchButton";
 import { MathButton } from "./MathButton";
+import { InputState } from "./InputState";
+
+
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
@@ -26,5 +30,6 @@ root.render(
     <Button text="Click Me"/>
     <FetchButton/>
     <MathButton/>
+    <InputState/>
   </>
 );
