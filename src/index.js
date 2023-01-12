@@ -6,6 +6,7 @@ import { Button } from "./Button";
 import { StyleLine } from "./LineStyle";
 import { ImportCss } from "./ImportStyle";
 import { FetchButton } from "./FetchButton";
+import { MathButton } from "./MathButton";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
@@ -24,6 +25,6 @@ root.render(
     <ImportCss task={true}/>
     <Button text="Click Me"/>
     <FetchButton/>
-
+    <MathButton/>
   </>
 );
