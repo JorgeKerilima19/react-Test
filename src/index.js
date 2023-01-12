@@ -8,7 +8,7 @@ import { ImportCss } from "./ImportStyle";
 import { FetchButton } from "./FetchButton";
 import { MathButton } from "./MathButton";
 import { InputState } from "./InputState";
-
+import { InputEffect } from "./UseEffectButton";
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -31,5 +31,6 @@ root.render(
     <FetchButton/>
     <MathButton/>
     <InputState/>
+    <InputEffect/>
   </>
 );
