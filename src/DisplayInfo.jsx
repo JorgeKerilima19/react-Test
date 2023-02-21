@@ -24,7 +24,9 @@ function DisplayInfo() {
     }
   }, []);
   useEffect(() => {
-    updatePosts(user.id);
+    if (user?.id) {
+      updatePosts(user.id);
+    }
   }, [user]);
 
   return (

@@ -1,6 +1,4 @@
-
 async function getUser() {
-
   const userId = Math.floor(Math.random() * 10) + 1;
 
   const url = `https://jsonplaceholder.typicode.com/users/${userId}`;
