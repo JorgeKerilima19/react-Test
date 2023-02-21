@@ -11,23 +11,15 @@ const users = [
   },
 ];
 
-function GetUser() {
-  return (
-    <div>
-      <ul style={{ color: "red", listStyle: "none" }}>
-        {users.map((user) => {
-          return (
-            <li>
-              <h2>
-                {user.id} : {user.name}
-              </h2>
-              <h4>{user.email}</h4>
-            </li>
-          );
-        })}
-      </ul>
-    </div>
-  );
+async function GetUser() {
+
+  const userId = Math.floor(Math.random() * 10) + 1;
+
+  const url = `https://jsonplaceholder.typicode.com/users/${userId}`;
+  const res = await fetch(url);
+  const user = await res.json();
+
+  return user;
 }
 
 export default GetUser;
