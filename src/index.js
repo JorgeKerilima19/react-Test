@@ -9,7 +9,7 @@ import { FetchButton } from "./FetchButton";
 import { MathButton } from "./MathButton";
 import { InputState } from "./InputState";
 import { InputEffect } from "./UseEffectButton";
-
+import UseEffectTest from "./UseEffectTest";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -25,12 +25,13 @@ root.render(
     />
     <Button text="I do nothing" />
     <Button text="" name="Frank" />
-    <StyleLine/>
-    <ImportCss task={true}/>
-    <Button text="Click Me"/>
-    <FetchButton/>
-    <MathButton/>
-    <InputState/>
-    <InputEffect/>
+    <StyleLine />
+    <ImportCss task={true} />
+    <Button text="Click Me" />
+    <FetchButton />
+    <MathButton />
+    <InputState />
+    <InputEffect />
+    <UseEffectTest />
   </>
 );

@@ -9,3 +9,21 @@
 .bg-green {
   background-color: green;
 }
+.square{
+  font-size: 2em;
+  height: 16rem;
+  width: 16rem;
+  background-color: aquamarine;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+.gray{
+  color: gray;
+}
+.blue{
+  color: blue;
+}
