@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import "./card.css"
 
 function UseEffectTest() {
   const [state, setState] = useState(true);
@@ -9,7 +10,7 @@ function UseEffectTest() {
   }
   useEffect(() => {
     setStateTotWatch((stateToWatch) => !stateToWatch);
-    console.log("xd");
+    console.log(state);
   }, [state]);
   return (
     <div className={`square ${state === true ? "red" : "green"}`}>
